@@ -191,8 +191,8 @@ class NST:
 
 
 if __name__ == '__main__':
-    nst = NST(content_path="/content/data/content/techweek.jpg",
-              style_path="/content/data/style/starynightvangogh.jpg",
+    nst = NST(content_path="../data/content/techweek.jpg",
+              style_path="../data/style/starynightvangogh.jpg",
               img_height=1024, epochs=10
-    )
+              )
     nst.run()
